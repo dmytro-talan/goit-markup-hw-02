@@ -65,8 +65,12 @@ a {
         color: #fff;
 }
 
+.btn-title:hover,
+.btn-title:focus {
+    background-color: #404BBF
+}
+
 .btn-title {
-    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -79,11 +83,6 @@ a {
         height: 56px;
             background: #4d5ae5;
 
-}
-
-.btn-title:hover
-.btn-title:focus {
-    background-color: #404BBF
 }
 
 .benefits-title {
@@ -111,7 +110,7 @@ a {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-transform: capitalize
+        text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
 }
@@ -144,8 +143,8 @@ a {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-transform: capitalize
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
