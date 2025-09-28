@@ -59,23 +59,31 @@ a {
 .title-page-text {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
 .btn-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
     cursor: pointer;
-}
-
-.btn-title {
     border-radius: 4px;
         padding: 16px 32px;
         width: 169px;
         height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background: #4d5ae5;
+
+}
+
+.btn-title:hover
+.btn-title:focus {
+    background-color: #404BBF
 }
 
 .benefits-title {
@@ -101,8 +109,9 @@ a {
 .title-hero {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
+        text-transform: capitalize
         text-align: center;
         color: #2e2f42;
 }
@@ -127,15 +136,15 @@ a {
 
 .hero-card {
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background-color: #fff;
 }
 
 .portfolio-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
+        text-transform: capitalize
         text-align: center;
         color: #2e2f42;
 }
