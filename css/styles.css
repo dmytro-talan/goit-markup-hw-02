@@ -66,6 +66,10 @@ a {
 }
 
 .btn-title {
+    cursor: pointer;
+}
+
+.btn-title {
     border-radius: 4px;
         padding: 16px 32px;
         width: 169px;
